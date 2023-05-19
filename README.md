@@ -75,11 +75,11 @@ OBS: O BANCO DE DADOS ESTÁ NA INTERNET PORTANTO É SÓ RODAR O PROJETO
 
 BANCO DE DADOS EM MYSQL
 
-Nome do Banco> restofles_fluxo_caixa
-Servidor> robb0498.publiccloud.com.br
-porta:3306
-Usuario> resto_fluxo
-Senha> Opah#102030
+Nome do Banco: restofles_fluxo_caixa<br/>
+Servidor:  robb0498.publiccloud.com.br<br/>
+porta:3306<br/>
+Usuario: resto_fluxo<br/>
+Senha: Opah#102030<br/>
 
 
 1- Crie uma conta no EndPoint de Post do Account>
