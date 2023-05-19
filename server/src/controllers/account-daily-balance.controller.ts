@@ -9,25 +9,6 @@ export class AccountDailyBalanceController {
     protected accountRepository: AccountRepository,
   ) {}
 
-  // @get('/accounts/{accountId}/daily-balances', {
-  //   responses: {
-  //     '200': {
-  //       description: 'Array of Account has many DailyBalance',
-  //       content: {
-  //         'application/json': {
-  //           schema: {type: 'array', items: getModelSchemaRef(DailyBalance)},
-  //         },
-  //       },
-  //     },
-  //   },
-  // })
-  // async find(
-  //   @param.path.number('accountId') accountId: number,
-  //   @param.query.object('filter') filter?: Filter<DailyBalance>,
-  // ): Promise<DailyBalance[]> {
-  //   return this.accountRepository.dailyBalances(accountId).find(filter);
-  // }
-
   @get('/accounts/{accountId}/daily-balances/{date}', {
     responses: {
       '200': {
