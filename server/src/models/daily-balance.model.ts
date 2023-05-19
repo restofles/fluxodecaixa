@@ -25,6 +25,7 @@ export class DailyBalance extends Entity {
   @property({
     type: 'number',
     required: true,
+    scale: 2,
   })
   balance: number;
 
