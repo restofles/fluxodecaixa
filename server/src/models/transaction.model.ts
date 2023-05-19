@@ -13,6 +13,8 @@ export class Transaction extends Entity {
   @property({
     type: 'number',
     required: true,
+    dataType: 'decimal',
+    precision: 11,
     scale: 2,
   })
   amount: number;
